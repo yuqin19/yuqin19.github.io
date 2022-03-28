@@ -4,10 +4,8 @@
   <head>
     <meta charset="utf-8">
     <title>Savory</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
     <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   </head>
@@ -17,17 +15,10 @@
     <div class="container">
 
       <header>
-        <div class="wrapper">
-          <h1>Andy Lautenschlager</h1>
-            <p class="bio"> Here's where you could put a description of yourself and the site. Like, "I'm an English major and Pizza Ambassador. This site collects some of my digital media-related coursework."
-            </p>
-          <div class="buttonBox">
-            <a class="myButton" href="#projects">Go</a>
-          </div>
-        </div>
+        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
       </header>
 
-      <main id="projects">
+      <main>
         <div class="recipe a">
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
           <h2>CHOCOLATE MOUSSE</h2>
