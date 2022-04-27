@@ -10,9 +10,10 @@ body {
 header, footer {
   /* background-color: #e9d8a6; */
 
-  /* background: #1A2980;
-background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
-background: linear-gradient(to right, #26D0CE, #1A2980); */
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   text-align: left;
 /*  min-width: 500px; */
@@ -20,9 +21,9 @@ background: linear-gradient(to right, #26D0CE, #1A2980); */
 
 header {
 
-  background-image: url('https://cdn.pixabay.com/photo/2022/04/11/09/32/glacier-7125359_960_720.jpg');
+  /* background-image: url('https://cdn.pixabay.com/photo/2022/04/11/09/32/glacier-7125359_960_720.jpg');
 background-size: cover;
-background-position: center center;
+background-position: center center; */
 
   font-family: 'Merriweather', serif;
   color: #fff;
@@ -165,8 +166,37 @@ img {
   margin: auto;
 }
 
-footer {
+/* footer {
   margin-top: 44px;
+} */
+
+footer div {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
+  justify-content: space between;
+}
+
+.copyright {
+  margin: auto 0;
+}
+
+.icons {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.icons a {
+  margin: 0 8px;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.icons a:hover {
+  color: rgb(255, 255, 255, 0.8);
 }
 
 @media all and (max-width:700px) {
