@@ -48,9 +48,6 @@ h2 {
   color: #e9d8a6;
   padding: 10px 0px 10px 10px;
 }
-a {
-  color: #00b09b;
-}
 
 img {
   width: 100%;
@@ -58,6 +55,16 @@ img {
   object-fit: cover;
   object-position: center top
 }
+
+h1 { color: #FFFFFF; font-family: 'Rouge Script', cursive; font-size: 130px; font-weight: normal; line-height: 48px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #082b34; }
+
+p { color: #FFFFFF; font-family: 'Carme', sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px; }
+
+a { color: #CEF0D4; text-decoration: underline; }
+
+a:hover { color: #a7e8f8; text-decoration: underline; }
+
+
 
 .wrapper {
     max-width: 1150px;
